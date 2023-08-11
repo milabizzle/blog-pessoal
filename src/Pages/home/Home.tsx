@@ -1,4 +1,4 @@
-import homeLogo from '../../assets/img/blogs.avif'
+import homeLogo from '../../assets/img/Cobra-Kai-Logo.png'
 import './Home.css';
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
@@ -21,8 +21,9 @@ function Home() {
             </div>
   
             <div className="flex justify-center ">
-              <img src={homeLogo} alt="" className='border-x-indigo-700 w-2/3' />
-      
+            <div className='container mx-auto mt-4 rounded-2xl overflow-hidden'>
+              <img src={homeLogo} alt="logo do dojo Cobra-Kai" className='border-x-indigo-700 w-2/3' />
+              </div>
             </div>
           </div>
         </div>
