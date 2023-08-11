@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthContext';
 import Tema from '../../../models/Tema';
 import { buscar } from '../../../services/Service';
-import CardTemas from '../../temas/cardTemas/CardTemas';
+import CardTemas from '../../../components/temas/cardTemas/CardTemas';
 import { toastAlerta } from '../../../util/toastAlerta';
 
 function ListaTemas() {
